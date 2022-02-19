@@ -15,7 +15,6 @@ app.use(cors(corsOptions))
 app.use(express.json());
 
 let mc = require("mongodb").MongoClient;
-const dburl1 = "mongodb+srv://bobby:19062002pk@cluster0.ucbh4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const dburl="mongodb+srv://sushma:sushma_7@cluster0.shzv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 let dbObj;
 let collectionObj;
