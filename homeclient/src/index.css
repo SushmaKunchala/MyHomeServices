@@ -1,0 +1,39 @@
+.Headerpills
+{   
+    font-Size:25px ;
+    text-align:center;
+    color: #888888;
+    margin: 6px;
+    padding:5px;
+    border-radius: 30px;
+}
+
+.Headerpills:hover{
+    background-color: cyan;
+}
+
+.each_card{
+    transition: 0.3s all ease-in-out;
+    padding:10px;
+}
+
+.each_card:hover {
+    transform: scale(1.1);
+}
+
+.book{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.button_options
+{
+    display: flex;
+    justify-content:right;
+
+}
+
+.Scroll
+{
+    height: 100vh;
+    overflow-y: scroll;
+}
